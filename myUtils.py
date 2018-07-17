@@ -4,18 +4,18 @@ import pandas as pd
 '''
 定义连接
 '''
-conn = pymysql.connect(host='39.107.98.156',
+conn = pymysql.connect(host='*****',
                            port=3306,
-                           user='lideqi',
-                           passwd='lideqi17',
-                           db='moodlevideo',
+                           user='****',
+                           passwd='*****',
+                           db='******',
                            charset='utf8')
 
-myConn = pymysql.connect(host='localhost',
+myConn = pymysql.connect(host='******',
                       port=3306,
-                      user='root',
-                      passwd='Thisisit..0316',
-                      db='stu_analysis',
+                      user='****',
+                      passwd='*****',
+                      db='******',
                       charset='utf8')
 
 '''
