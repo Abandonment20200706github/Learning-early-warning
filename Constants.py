@@ -1,19 +1,9 @@
 import pymysql
 
 # 连接moodle的数据库
-conn = pymysql.connect(host='39.107.98.156',
-                           port=3306,
-                           user='lideqi',
-                           passwd='lideqi17',
-                           db='moodlevideo',
-                           charset='utf8')
+conn = pymysql.connect(******)
 # 连接自己的数据库
-myConn = pymysql.connect(host='localhost',
-                      port=3306,
-                      user='root',
-                      passwd='Thisisit..0316',
-                      db='stu_analysis',
-                      charset='utf8')
+myConn = pymysql.connect(*******)
 
 # 起始和结束日期
 startTime = "2018-01-01"
